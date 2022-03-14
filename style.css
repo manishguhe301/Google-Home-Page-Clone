@@ -1,0 +1,75 @@
+    html,
+    body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        /* height: 100%; */
+    }
+    
+    #searchbarcontainer {
+        text-align: center;
+        margin-top: 20px;
+        position: relative;
+    }
+    
+    #searchbar {
+        border: #dadce0;
+        border-radius: 50px;
+        font-size: 16px;
+        outline: none;
+    }
+    
+    #searchbar:hover {
+        box-shadow: 0 0 10px 2px #eee
+    }
+    
+    #Searchbuttons {
+        background: #f8f9fa;
+        border: 1px solid #f8f9fa;
+        border-radius: 4px;
+        color: #3c4043;
+        z-index: 1;
+    }
+    
+    #Searchbuttons:hover {
+        box-shadow: 0 0 1px 0px black;
+        border: 1px solid #eee;
+    }
+    
+    #links {
+        font-size: small;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    a:hover {
+        text-decoration: underline;
+        word-wrap: normal;
+    }
+    
+    footer {
+        background: #f2f2f2;
+    }
+    
+    #country {
+        padding: 15px 30px;
+        border-bottom: 1px solid #dadce0;
+        font-size: 15px;
+        color: #70757a;
+    }
+    
+    #last {
+        padding: 15px 30px;
+        font-size: 15px;
+    }
+    
+    #lastlinks {
+        color: #70757a;
+    }
+    /* @media screen and (height <800px) {
+        .cont {
+            margin-top: 50px;
+        }
+    } */
